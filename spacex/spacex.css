@@ -1,0 +1,212 @@
+*{
+    background: #000;
+    color: #fff;
+    margin: 0;
+}
+h1,h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: normal;
+    text-align: left;
+}
+h3{
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 100;
+}
+@font-face{
+    font-family:Dbold;
+    src: url(fonts/D-DIN-Bold.otf);
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px;
+    position:sticky;
+    top: 0;
+}
+header>.icon>img{
+    width: 100%;
+}
+header>.icon{
+    width: 220px;
+    height: 50px;
+}
+header>ul{
+    display: flex;
+    list-style: none;
+}
+header>ul>a{
+    text-decoration: none;
+}
+header>ul>a:hover{
+    text-decoration: underline;
+}
+header>ul>a>li{ 
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 15px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container>.starlink{
+    height: 100vh;
+    background-image: url(images/1.webp);
+    background-size: cover;
+    position: relative;
+     padding:0px 30px;
+}
+.container>.starlink>.one>h1{
+    position: absolute;
+    bottom: 30%;
+    background: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container>.starlink>.one>h3{
+    position: absolute;
+    top: 50%;
+    background: transparent;
+}
+.container>.starlink>.one>a{
+    position: absolute;
+    bottom: 20%;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    text-decoration: none;
+}
+.container>.starlink>.one>a:hover{
+    background:#fff;
+    color: #000;
+}
+.container>.kplo{
+    height: 100vh;
+    background-image: url(images/2.webp);
+    background-size: cover;
+    position: relative;
+     padding:0px 30px;
+}
+.container>.kplo>.two{
+    position: absolute;
+    width: 600px;
+    padding: 10px;
+    top: 50%;
+    background: transparent;
+}
+.container>.kplo>.two>h1{
+    /* display: inline-block; */
+    margin-bottom: 30px;
+    background: transparent;
+    font-size: 48px;
+}
+.container>.kplo>.two>h3{
+    top: 50%;
+    background: transparent;
+}
+.container>.kplo>.two>a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    text-decoration: none;
+}
+.container>.kplo>.two>a:hover{
+    background:#fff;
+    color: #000;
+}
+.container>.starship{
+    height: 100vh;
+    background-image: url(images/3.webp);
+    background-size: cover;
+    position: relative;
+     padding:0px 30px;
+}
+.container>.starship>.three{
+    position: absolute;
+    width: 600px;
+    padding: 10px;
+    top: 60%;
+    background: transparent;
+}
+.container>.starship>.three>h1{
+    bottom: 30%;
+    background: transparent;
+}
+.container>.starship>.three>a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    text-decoration: none;
+}
+.container>.starship>.three>a:hover{
+    background:#fff;
+    color: #000;
+}
+.container>.nasa{
+    height: 100vh;
+    background-image: url(images/4.webp);
+    background-size: cover;
+    position: relative;
+     padding:0px 30px;
+}
+.container>.nasa>.four{
+    width: 600px;
+    padding: 10px;
+    position: absolute;
+    top: 43%;
+    background: transparent;
+}
+.container>.nasa>.four>h1{
+    bottom: 30%;
+    background: transparent;
+}
+.container>.nasa>.four>a{
+    display: inline-block;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    background: transparent;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.container>.nasa>.four>a:hover{
+    background:#fff;
+    color: #000;
+    /* transition:300ms; */
+    transform: scaleX(1);
+    transform-origin: bottom;
+    transition: color 300ms ease-in;
+    z-index: 1;
+}
+footer{
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 0px;
+}
+footer>span{
+    font-family: Verdana, sans-serif;
+    width: 100px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+footer>.social>ul>a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    margin-right: 35px;
+    text-decoration: none;
+
+}
+footer>.social>ul>a:hover{
+    opacity: 0.5;
+    transition: all 0.4s ease-in;
+    
+}
